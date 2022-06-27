@@ -3,6 +3,7 @@ const fse = require('fs-extra')
 const os = require('os')
 const path = require('path')
 const shell = require('shelljs')
+const chalk = require('chalk')
 const answer = require('../../lib/answer')
 const log = require('../../lib/log')
 const validUtil = require('../../lib/valid')
@@ -52,6 +53,12 @@ const init = async (projectName) => {
     log.success('创建项目成功')
     // 安装项目依赖
     dep.installDep(projectFolder)
+
+    log(
+      `👉  Get started with the following commands:\n\n` +
+        chalk.cyan(` ${chalk.gray('$')} cd ${project_name}\n`) +
+        chalk.cyan(` ${chalk.gray('$')} pnpm dev`)
+    )
   } catch (err) {
     log.error('创建项目失败，请重试')
     process.exit(1)

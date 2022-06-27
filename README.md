@@ -3,27 +3,27 @@
 ## Installation
 
 ```
-npm install -g ysl
+npm install -g ysl-cli
 # OR
-yarn global add ysl
+yarn global add ysl-cli
 ```
 
 ### version
 
 ```
-vue --version
+ysl-cli --version
 ```
 
 ### update
 
 ```
-npm update -g ysl
+npm update -g ysl-cli
 # OR
-yarn global upgrade --latest ysl
+yarn global upgrade --latest ysl-cli
 ```
 
 ## Usage
 
 ```
-ysl create hello-world
+ysl-cli create hello-world
 ```

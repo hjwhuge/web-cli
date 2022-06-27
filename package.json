@@ -1,15 +1,26 @@
 {
-  "name": "ysl",
-  "version": "1.0.0",
+  "name": "ysl-cli",
+  "version": "1.0.1",
   "description": "web-cli",
   "main": "index.js",
   "bin": {
-    "ysl": "./src/bin/index.js"
+    "ysl-cli": "./src/bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hjwhuge/web-cli.git"
+  },
+  "homepage": "https://github.com/hjwhuge/web-cli.git",
+  "bugs": {
+    "url": "https://github.com/hjwhuge/web-cli/issues"
+  },
+  "keywords": [
+    "vue",
+    "cli"
+  ],
   "author": "hjwhuge",
   "license": "ISC",
   "dependencies": {
