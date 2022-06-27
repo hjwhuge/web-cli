@@ -1,0 +1,30 @@
+{
+  "name": "ysl",
+  "version": "1.0.0",
+  "description": "web-cli",
+  "main": "index.js",
+  "bin": {
+    "ysl": "./src/bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hjwhuge",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "ora": "^5.4.1",
+    "semver": "^7.3.7",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "prettier": "^2.7.1"
+  }
+}
