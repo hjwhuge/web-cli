@@ -1,4 +1,4 @@
-# ysl
+# ysl-cli
 
 ## Installation
 
